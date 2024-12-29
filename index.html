@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imges/sun-cloud-and-rain.svg">
+    <title>weather App</title>
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body class="bg-dark">
+
+    <div class="text-light text-center mt-5 pt-2">
+        <h1>weather App</h1>
+    </div>
+
+
+    <div class="benner container">
+        <form class="d-flex position-relative" role="search" id="search">
+            <input id="input" class="form-control p-3 border-info border-2 rounded-5" type="search" placeholder="Fiend Your Location" aria-label="Search">
+            <span class="position-absolute top-50 end-0 translate-middle-y pe-4"><i class="fa-lg fa-solid fa-magnifying-glass"></i></span>
+        </form>
+    </div>
+
+
+
+    <section class=" m-3 p-3">
+        <div class="row">
+            <div class="col-12 col-md-5">
+                <div class="card bg-secondary shadow-lg border-info">
+                    <div class="card-body text-light" id="weatherInformayion">
+                        <!-- الطقس الحالي -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-7">
+                <div class="swiper mySwiper custom-swiper">
+                    <div class="swiper-wrapper" id="hourWeather">
+
+                        <!-- عناصر ال swiper -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container m-5">
+        <div class="row" id="WeatherDays">
+            <!-- طقس الايام القادمه -->
+        </div>
+
+    </div>
+
+
+
+    <script src="./Js/all.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js "></script>
+    <script src="./Js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js "></script>
+    <script src="./Js/index.js "></script>
+</body>
+
+</html>
+
+</html>
