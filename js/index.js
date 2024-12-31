@@ -111,6 +111,10 @@ search.addEventListener("submit", (e) => {
 
 
 var swiper = new Swiper(".mySwiper", {
+    autoplay: {
+        delay: 1000,
+
+    },
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
